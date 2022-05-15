@@ -1,0 +1,208 @@
+body {
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44);
+}
+/* Design of menu */
+#navMenu{ 
+    width: 100%;
+    height: 50px;
+    background-color: #006699;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+#navMenu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#navMenu ul li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}   
+#navMenu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1d4870;
+    border-radius: 5px;
+}
+#navMenu ul li a:hover{
+    color: #c1d2d8;
+}
+
+
+
+/* Design of table */
+#table_users {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 3%;
+}
+
+#table_users td, #table_users th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+#table_users tr:nth-child(even){background-color: #f2f2f2;}
+#table_users tr:hover {background-color: rgb(175, 170, 170);}
+
+#table_users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2167a8;
+    color: white;
+  }
+
+/* Design of login */
+#title-login {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #15324d;
+}
+
+#form_login {
+    width: 30%;
+    height: 50%;
+    background-color: #f2f2f2;
+    margin: auto;
+    margin-top: 5%;
+    padding: 3%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+#form_login input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Design of buttons in form of login-user */
+#button-back {
+    width: 10%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #2167a8;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#button-back a {
+    text-decoration: none;
+    color: white;
+}
+
+#button-back:hover {
+    background-color: #5885af;
+}
+
+#button-login{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #2167a8;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    border: none;
+}
+
+#button-login{
+    text-decoration: none;
+    color: white;
+}
+
+#button-login:hover{
+    background-color: #5885af;
+    cursor: pointer;
+}
+
+
+#button-signup{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #2167a8;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    border: none;
+    margin-top: 10px;
+}
+
+#button-signup a {
+    text-decoration: none;
+    color: white;
+}
+
+#button-signup:hover{
+    background-color: #5885af;
+}
+
+/* Design form in form register-user */
+
+#main-title-all-products{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #cbdcec;
+    margin-top: 5px;
+}
+
+#main-title-page {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #15324d;
+}
+
+#data-form-register {
+    width: 30%;
+    height: 50%;
+    background-color: #f2f2f2;
+    margin: auto;
+    margin-top: 5%;
+    padding: 3%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #000000;
+}
+#data-form-register input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#button-register{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #2167a8;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    border: none;
+}
+#button-register:hover{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+

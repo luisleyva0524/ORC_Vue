@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/waiters.css">
+    <title>all waiters</title>
+</head>
+<body>
+    <button type="button" id="btnCagar" onclick="getAllWaiters()">mostrar</button>
+    <h3 id="main-title-all-waiters">All Orders</h3>
+    <nav id="navMenu">
+        <ul>
+            <li><a href="../public/index.html">Inicio</a></li>
+            <li><a href="../public/waiters_register.html">Registar</a></li>
+            <li><a href="../public/">Actualizar</a></li>
+        </ul>
+    </nav>
+
+    <table id="table_waiters">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>TURNO</th>
+                <th>ACCION</th>
+            </tr>
+        </thead>
+        <tbody id="data">
+        </tbody>
+    </table>
+    <script src="../public/js/all_waiters.js"></script>
+
+</body>
+</html>
