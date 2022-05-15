@@ -62,7 +62,7 @@ exports.deleteUser = (request, response) =>{
 
 exports.getUsers = async(request,response) =>{
     try {
-        const results = await modeloUsuario.Usuario.findAll({attributes:['idUsuario','rol','correo']});
+        const results = await modeloUsuario.Usuario.findAll({attributes:['idUsuario','rol','correo','contraseña']});
         
         jwt.verify(request.token, 'secretkey',() => {
             response.status(201).json(results); 
@@ -74,24 +74,3 @@ exports.getUsers = async(request,response) =>{
         });
     }
 };
-
-// function searchForId(request, response){
-//     try{
-//         const findUser = modeloUsuario.Usuario.findOne(request.params.id,{
-//             where: 
-//             {
-//                 idUsuario: request.params.id
-//             }
-//         });
-        
-//         response.status(201).json({
-//             status: 'User finded', 
-//             data: findUser
-//         });    
-
-//     }catch(error){
-//         response.status(500).json({
-//             status: 'failed',
-//             msg: error
-//         });
-//     }
